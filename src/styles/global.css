@@ -34,19 +34,6 @@
 }
 
 @layer components {
-  .container {
-    /* FIXME: Specify the real "px-" padding */
-    /* FIXME: Specify the max-width "max-w-" by formula: 1920px design content width + padding * 2 */
-    @apply mx-auto w-full max-w-[1400px];
-
-    /*
-      FIXME: Specify the real "px-" padding for each breakpoint
-      @screen 2xl {
-        @apply px-;
-      }
-    */
-  }
-
   .gap-x-grid {
     /* FIXME: Specify the real grid "gap-x-" for each breakpoint */
     @apply gap-x-10;
